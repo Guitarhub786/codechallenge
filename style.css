@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  color: red;
+}
+
+#demo {
+  color: blue;
+  font-size: 20px;
+  /* background-color: red; */
+}
+
+#editor {
+  height: 80%;
+  width: 30%;
+  display: inline-block;
+  border-width: 20px;
+}
+#editor2 {
+  height: 80%;
+  width: 30%;
+  display: inline-block;
+  border-width: 20px;
+}
+
+#container {
+  height: 100%;
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+#iframe {
+  height: 70%;
+  display: inline-block;
+  width: 15%;
+  border-width: 2px;
+}
+#iframe2 {
+  height: 70%;
+  display: inline-block;
+  width: 15%;
+  border-width: 2px;
+}
+
+#iframe3 {
+  color: blue;
+  height: 30%;
+  display: inline-block;
+  width: 55%;
+  border-width: 1px;
+  margin: 5px;
+}
+
+#run_button {
+
+  font-size: 40px;
+}
+
+/* disable tag matching */
+.ace_editor .ace_marker-layer .ace_bracket {
+  display: none;
+}
